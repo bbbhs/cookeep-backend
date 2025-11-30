@@ -1,0 +1,6 @@
+Flask
+flask-cors
+pandas
+google-cloud-vision
+python-dotenv
+gunicorn

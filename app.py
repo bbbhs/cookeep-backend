@@ -194,4 +194,5 @@ def recommend_api():
 # ------------------------------------------
 if __name__ == "__main__":
     load_data_to_memory()
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+
